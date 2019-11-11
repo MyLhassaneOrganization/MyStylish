@@ -11,7 +11,7 @@ for (elt of html) {
 
 // Goole Goole Goole Goole Goole Goole Goole Goole Goole Goole Goole
 
-// Alittle manipulatation in the google results page
+// A little manipulatation in the google results page
 let isValidHostname = /google.com\\?/.test(window.location);
 if (isValidHostname){
 
