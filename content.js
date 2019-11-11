@@ -1,5 +1,5 @@
 // Change the background and font color for all websiyes
-let body = document.querySelectorAll('.c1,header,section,p,main,html,input,body,div,pre,code,a,ul,li,blockquote,textarea');
+let body = document.querySelectorAll('.c1,article, aside, details, figcaption, figure, footer, header, main, mark, nav, section, summary, p, html, input, body, div, pre, code, a, ul, li, blockquote, textarea');
 for (elt of body) {
     elt.style.setProperty('background', '#71968a', 'important');
     elt.style.setProperty('color', '#d2d2d2', 'important');
@@ -32,3 +32,4 @@ if (isValidHostname){
         elt.style.setProperty('color', '#d2d2d2', 'important');
     }
 }
+ 
